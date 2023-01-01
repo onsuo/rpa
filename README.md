@@ -7,6 +7,7 @@
 ### 사용된 package 목록
 
 #### excel
-
 - openpyxl
 
+#### desktop
+- pyautogui

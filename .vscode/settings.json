@@ -3,6 +3,7 @@
     "python.linting.pylintArgs": [
         "--disable=C0103", // invalid-name
         "--disable=C0111", // missing-docstring
+        "--disable=E501", // line-too-long
     ],
     "[python]": {
         "editor.formatOnSave": true,
