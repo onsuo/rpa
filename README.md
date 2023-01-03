@@ -11,3 +11,5 @@
 
 #### desktop
 - pyautogui
+- logging
+- os
