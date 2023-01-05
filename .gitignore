@@ -131,3 +131,6 @@ dmypy.json
 
 # Excel file
 *.xlsx
+
+
+*.exe
