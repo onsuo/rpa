@@ -129,8 +129,6 @@ dmypy.json
 .pyre/
 
 
-# Excel file
-*.xlsx
-
-
+# personal
 *.exe
+account.py

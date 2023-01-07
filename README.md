@@ -13,3 +13,9 @@
 - pyautogui
 - logging
 - os
+
+#### web
+- selenium
+
+#### email
+- smtplib
