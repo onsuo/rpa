@@ -11,9 +11,7 @@ from imap_tools import MailBox
 # mailbox.login(EMAIL_ADDRESS, EMAIL_PASSWORD, initial_folder="INBOX")
 # mailbox.logout()
 
-with MailBox("imap.gmail.com", 993).login(
-    EMAIL_ADDRESS, EMAIL_PASSWORD, initial_folder="INBOX"
-) as mailbox:
+with MailBox("imap.gmail.com", 993).login(EMAIL_ADDRESS, EMAIL_PASSWORD, initial_folder="INBOX") as mailbox:
     # 전체 메일 다 가져오기
     for msg in mailbox.fetch():
         print(f"[{msg.from_}] {msg.subject}")
