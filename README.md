@@ -7,16 +7,16 @@
 ### 사용된 package 목록
 
 #### excel
-- openpyxl
+- openpyxl (v3.0.10)
 
 #### desktop
-- pyautogui
-- logging
-- os
+- pyautogui (v0.9.53)
+- logging (python=v3.10.8)
+- os (python=v3.10.8)
 
 #### web
-- selenium
+- selenium (v4.7.2)
 
 #### email
-- smtplib
-- imap_tools
+- smtplib (python=v3.10.8)
+- imap_tools (v1.0.0)
